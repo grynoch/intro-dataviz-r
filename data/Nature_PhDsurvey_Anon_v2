@@ -1,0 +1,182 @@
+"country","homestudy","region","Total"
+"Afghanistan","No","Asia (including Middle East)",1
+"Algeria","Yes","Africa",6
+"Antigua and Barbuda","No","North or Central America",1
+"Argentina","No","South America",6
+"Argentina","Yes","South America",26
+"Armenia","Yes","Asia (including Middle East)",1
+"Australia","No","Australasia",104
+"Australia","Yes","Australasia",89
+"Austria","No","Europe",41
+"Austria","Yes","Europe",18
+"Bangladesh","No","Asia (including Middle East)",2
+"Bangladesh","Yes","Asia (including Middle East)",2
+"Belgium","No","Europe",41
+"Belgium","Yes","Europe",30
+"Bosnia and Herzegovina","No","Europe",1
+"Botswana","Yes","Africa",1
+"Brazil","No","South America",13
+"Brazil","Yes","South America",126
+"Bulgaria","Yes","Europe",1
+"Cameroon","Yes","Africa",5
+"Canada","No","North or Central America",87
+"Canada","Yes","North or Central America",103
+"Cayman Islands","No","North or Central America",1
+"Chile","No","South America",4
+"Chile","Yes","South America",18
+"China","No","Asia (including Middle East)",85
+"China","Yes","Asia (including Middle East)",680
+"Colombia","No","South America",2
+"Colombia","Yes","South America",17
+"Croatia","Yes","Europe",17
+"Cuba","Yes","North or Central America",1
+"Cyprus","No","Europe",3
+"Czech Republic","No","Europe",58
+"Czech Republic","Yes","Europe",123
+"Denmark","No","Europe",26
+"Denmark","Yes","Europe",7
+"Ecuador","No","South America",2
+"Egypt","No","Africa",1
+"Egypt","Yes","Africa",8
+"Egypt","Yes","Asia (including Middle East)",1
+"El Salvador","No","North or Central America",1
+"Eritrea","No","Africa",2
+"Estonia","No","Europe",2
+"Estonia","Yes","Europe",4
+"Ethiopia","No","Africa",1
+"Ethiopia","Yes","Africa",4
+"Finland","No","Europe",19
+"Finland","Yes","Europe",11
+"France","No","Europe",78
+"France","Yes","Europe",67
+"Germany","No","Europe",339
+"Germany","Yes","Europe",189
+"Ghana","No","Africa",3
+"Ghana","Yes","Africa",4
+"Greece","Yes","Europe",24
+"Guyana","No","South America",1
+"Haïti","Yes","North or Central America",7
+"Haïti","Yes","South America",1
+"Honduras","No","North or Central America",2
+"Hong Kong","No","Asia (including Middle East)",17
+"Hong Kong","Yes","Asia (including Middle East)",24
+"Hungary","No","Europe",5
+"Hungary","Yes","Europe",6
+"Iceland","No","Europe",1
+"Iceland","Yes","Europe",2
+"India","No","Asia (including Middle East)",15
+"India","Yes","Asia (including Middle East)",513
+"Indonesia","No","Asia (including Middle East)",5
+"Indonesia","Yes","Asia (including Middle East)",2
+"Iran","No","Asia (including Middle East)",6
+"Iran","Yes","Asia (including Middle East)",57
+"Iraq","No","Asia (including Middle East)",3
+"Iraq","Yes","Asia (including Middle East)",3
+"Ireland","No","Europe",24
+"Ireland","Yes","Europe",21
+"Israel and the Palestinian territories","No","Asia (including Middle East)",11
+"Israel and the Palestinian territories","Yes","Asia (including Middle East)",25
+"Italy","No","Europe",23
+"Italy","Yes","Europe",82
+"Japan","No","Asia (including Middle East)",82
+"Japan","Yes","Asia (including Middle East)",12
+"Jordan","No","Asia (including Middle East)",1
+"Kenya","No","Africa",3
+"Kenya","Yes","Africa",2
+"Kuwait","Yes","Asia (including Middle East)",2
+"Latvia","Yes","Europe",1
+"Lebanon","Yes","Asia (including Middle East)",1
+"Lithuania","Yes","Europe",3
+"Luxembourg","No","Europe",5
+"Malaysia","No","Asia (including Middle East)",7
+"Malaysia","Yes","Asia (including Middle East)",17
+"Maldives","Yes","Asia (including Middle East)",1
+"Mauritius","Yes","Africa",1
+"Mexico","No","North or Central America",11
+"Mexico","Yes","North or Central America",97
+"Moldova","Yes","Europe",1
+"Mongolia","Yes","Asia (including Middle East)",2
+"Morocco","No","Africa",1
+"Morocco","Yes","Africa",9
+"Mozambique","No","Africa",1
+"Nepal","No","Asia (including Middle East)",1
+"Nepal","Yes","Asia (including Middle East)",1
+"Netherlands","No","Europe",76
+"Netherlands","Yes","Europe",56
+"New Zealand","No","Australasia",14
+"New Zealand","Yes","Australasia",7
+"Nicaragua","Yes","North or Central America",2
+"Nigeria","No","Africa",4
+"Nigeria","Yes","Africa",35
+"Norway","No","Europe",27
+"Norway","Yes","Europe",15
+"Pakistan","No","Asia (including Middle East)",6
+"Pakistan","Yes","Asia (including Middle East)",33
+"Peru","Yes","South America",2
+"Philippines","No","Asia (including Middle East)",2
+"Philippines","Yes","Asia (including Middle East)",5
+"Poland","No","Europe",9
+"Poland","Yes","Europe",25
+"Portugal","No","Europe",15
+"Portugal","Yes","Europe",47
+"Puerto Rico","No","North or Central America",1
+"Puerto Rico","Yes","North or Central America",3
+"Qatar","No","Asia (including Middle East)",2
+"Romania","Yes","Europe",8
+"Russia","No","Asia (including Middle East)",1
+"Russia","No","Europe",1
+"Russia","Yes","Europe",18
+"Saudi Arabia","No","Asia (including Middle East)",8
+"Saudi Arabia","Yes","Asia (including Middle East)",1
+"Senegal","Yes","Africa",3
+"Serbia and Montenegro","Yes","Europe",9
+"Singapore","No","Asia (including Middle East)",49
+"Singapore","Yes","Asia (including Middle East)",14
+"Slovakia (Slovak Republic)","No","Europe",1
+"Slovakia (Slovak Republic)","Yes","Europe",5
+"Slovenia","No","Europe",5
+"Slovenia","Yes","Europe",5
+"South Africa","No","Africa",24
+"South Africa","Yes","Africa",37
+"South Korea","No","Asia (including Middle East)",46
+"South Korea","Yes","Asia (including Middle East)",38
+"Spain","No","Europe",45
+"Spain","Yes","Europe",95
+"Sri Lanka","Yes","Asia (including Middle East)",5
+"Sudan","Yes","Africa",1
+"Suriname","No","South America",1
+"Sweden","No","Europe",36
+"Sweden","Yes","Europe",9
+"Switzerland","No","Europe",131
+"Switzerland","Yes","Europe",24
+"taiwan","No","Asia (including Middle East)",1
+"Taiwan","No","Asia (including Middle East)",13
+"Taiwan","Yes","Asia (including Middle East)",7
+"Taiwan (R. O. C.)","No","Asia (including Middle East)",1
+"Taiwan (R.O.C)","No","Asia (including Middle East)",1
+"Tanzania","No","Africa",1
+"Tanzania","Yes","Africa",2
+"Thailand","No","Asia (including Middle East)",5
+"Thailand","Yes","Asia (including Middle East)",14
+"Trinidad and Tobago","Yes","North or Central America",1
+"Tunisia","Yes","Africa",2
+"Turkey","No","Asia (including Middle East)",2
+"Turkey","No","Europe",2
+"Turkey","Yes","Asia (including Middle East)",14
+"Turkey","Yes","Europe",21
+"Uganda","No","Africa",1
+"Ukraine","Yes","Europe",3
+"United Arab Emirates","No","Asia (including Middle East)",2
+"United Arab Emirates","Yes","Asia (including Middle East)",2
+"United Kingdom","No","Europe",273
+"United Kingdom","Yes","Europe",253
+"United States","No","North or Central America",499
+"United States","Yes","North or Central America",1049
+"Uruguay","Yes","South America",2
+"Uzbekistan","Yes","Asia (including Middle East)",1
+"Venezuela","No","South America",1
+"Venezuela","Yes","South America",1
+"Vietnam","No","Asia (including Middle East)",3
+"Vietnam","Yes","Asia (including Middle East)",1
+"Zimbabwe","No","Africa",1
+"Zimbabwe","Yes","Africa",2
