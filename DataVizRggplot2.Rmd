@@ -27,7 +27,7 @@ Reasons to use R:
 
 ## Create a new project
 * Under the File menu > New Project > Existing directory > *Browse for the folder where you saved the data* > Create project (This is now our working directory)
-* It's good practice to keep all related data, analysis, and text in the same folder in order to use relative paths as opposed to the full path to the file's location. Another best practice is to create a separate folders for your data, data outputs, and figure outputs. So let's create a folder named data in our working directory and put the data into it and create an empty data_output folder and an empty fig_output folder.
+* It's good practice to keep all related data, analysis, and text in the same folder in order to use relative paths as opposed to the full path to the file's location. Another best practice is to create a separate folders for your data, data outputs, and figure outputs. So let's create a folders named data and charts in our working directory and put the data into the data folder.
 * Create a new file where we will type our scripts. Go to File > New File > R script OR click the plus sign hovering over the white rectangle in the toolbar. Click the save icon on your tooolbar, or, in the menu, File > Save As and save your script as "DataViz-R-class-202208.R"
 
 Start by giving our document a title using a comment which are denoted by a #
@@ -57,19 +57,26 @@ library(tidyverse)
 5. Apply good design concepts
 6. Edit as necessary 
 
-For today the first three steps have been completed already and we're ready to move onto step 4.
+For today, the first three steps have been completed already and we're ready to move onto step 4. View the cleaning steps in the [class GitHub repository](https://github.com/grynoch/intro-dataviz-r).
+
+
 ### The research question
 Based on the 2019 Nature PhD Students Survey, Which country has the most respondents who are studying in the same country they grew up in?
+
+
+[Download the data for this class](https://github.com/grynoch/intro-dataviz-r/blob/main/data/Nature_PhDsurvey_Anon_v2.csv)
+
 
 The [original data and full text of the survey](https://figshare.com/s/74a5ea79d76ad66a8af8?file=18543278) is available on Figshare. We will be using a version that has been modified to more easily create the charts for this class. 
 
 ### Reading files into R
 To use data in R and RStudio we must first read it into the environment and assign it a variable name.
 ```{r}
-phdsurvey <- read.csv("data/Nature_PhDsurvey_Anon_v2")
+phdsurvey <- read.csv("data/Nature_PhDsurvey_Anon_v2.csv")
 ```
 I've used the relative path to the file above but if I were to use the full destination name it would look something like "C://Users/grynochc/Desktop/DataVizR-202208/data/Nature_PhDsurvey_Anon_v2.csv"
-&nbsp;
+
+
 You can read other files into R using similar functions such as: 
 ```{r eval=FALSE}
 #Excel files
@@ -102,7 +109,7 @@ Copyright © 2018 Seán I. O'Donoghue et al. This work is licensed under a CC-BY
 **Based on our research question and the data available? What type of chart should we create?**
 
 ### Creating charts in R with ggplot2
-ggplot2 comes as part of tidyverse and can be used to create a number of different plots. Today we'll cover a couple of basic ones, bar charts and dot plots, but the premise behind building a chart in ggplot is the same for all charts.
+ggplot2 comes as part of tidyverse and can be used to create a number of different plots. Today we'll be creating a bar chart, but the premise behind building a chart in ggplot is the same for all charts.
 
 
 There are many resources for creating charts in ggplot2. However, the one referred to most often in today's class is the [Data visualization with ggplot2 cheat sheet (download link)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf). The cheat sheet can also be useful when deciding what type of chart you want to create.
@@ -168,7 +175,7 @@ ggplot(data = homephd, mapping=aes(x=country, y = Total)) +
 To change the color of our bars we are going to use the fill aesthetic within geom_col. There is also a color aesthetic and it dictates the outline of the bars.
 
 
-The fill aesthetic will accept a variable name if you want the colors to be based on a category (ex. Genre), there is also a limited number of color names that can be used ("red", "green", "blue", etc.), but if there is a specific color that you want to use, I recommend using hexidecimal color codes. My preferred site for finding hexadecimal color codes is [color-hex.com](https://color-hex.com) but there are many other options.
+The fill aesthetic will accept a variable name if you want the colors to be based on a category (ex. region), there is also a limited number of color names that can be used ("red", "green", "blue", etc.), but if there is a specific color that you want to use, I recommend using hexidecimal color codes. My preferred site for finding hexadecimal color codes is [color-hex.com](https://color-hex.com) but there are many other options.
 
 
 There are many places to pull inspiration for chart colors:
