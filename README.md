@@ -1,4 +1,4 @@
-# You’ve got the data, now what? Communicating your findings effectively and reproducibly using charts produced with R and ggplot2
+# Communicating your findings effectively and reproducibly using charts produced with R and ggplot2
 Introductory class in data visualization with R and ggplot2 taught at the Lamar Soutter Library by Tess Grynoch. 
 Class scheduled for 60 minutes.
 
