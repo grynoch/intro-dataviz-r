@@ -1,7 +1,7 @@
 ---
-title: "You’ve got the data, now what? Communicating your findings effectively and reproducibly using charts produced with R and ggplot2"
+title: "Communicating your findings effectively and reproducibly using charts produced with R and ggplot2"
 author: "Tess Grynoch"
-date: "July/August 2022"
+date: "May 2024"
 output: html_document
 ---
 
@@ -26,9 +26,11 @@ Reasons to use R:
 * Large and welcoming community
 
 ## Create a new project
-* Under the File menu > New Project > Existing directory > *Browse for the folder where you saved the data* > Create project (This is now our working directory)
-* It's good practice to keep all related data, analysis, and text in the same folder in order to use relative paths as opposed to the full path to the file's location. Another best practice is to create a separate folders for your data, data outputs, and figure outputs. So let's create a folders named data and charts in our working directory and put the data into the data folder.
-* Create a new file where we will type our scripts. Go to File > New File > R script OR click the plus sign hovering over the white rectangle in the toolbar. Click the save icon on your tooolbar, or, in the menu, File > Save As and save your script as "DataViz-R-class-202208.R"
+* Under the File menu > New Project > New directory > New project > Choose a location for a folder for today's workshop and give it a descriptive name > Create project (This is now our working directory)
+* It's good practice to keep all related data, analysis, and text in the same folder in order to use relative paths as opposed to the full path to the file's location. Another best practice is to create a separate folders for your data, data outputs, and figure outputs. So let's create two folders in our working directory named: 
+  * data 
+  * charts 
+* Create a new file where we will type our script. Go to File > New File > R script OR click the plus sign hovering over the white rectangle in the toolbar. Click the save icon on your tooolbar, or, in the menu, File > Save As and save your script as "DataViz-R-class-20240515.R"
 
 Start by giving our document a title using a comment which are denoted by a #
 ```{r eval=FALSE}
@@ -64,7 +66,7 @@ For today, the first three steps have been completed already and we're ready to 
 Based on the 2019 Nature PhD Students Survey, Which country has the most respondents who are studying in the same country they grew up in?
 
 
-[Download the data for this class](https://github.com/grynoch/intro-dataviz-r/blob/main/data/Nature_PhDsurvey_Anon_v2.csv)
+[Download the data for this class](https://github.com/grynoch/intro-dataviz-r/blob/main/data/Nature_PhDsurvey_Anon_v2.csv) using the download icon on the GitHub page.
 
 
 The [original data and full text of the survey](https://figshare.com/s/74a5ea79d76ad66a8af8?file=18543278) is available on Figshare. We will be using a version that has been modified to more easily create the charts for this class. 
@@ -94,7 +96,7 @@ Resources:
 
 
 * [Andrew Abela's Chart Chooser](https://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf)
-* [Juice Analytics Chart Chooser](http://labs.juiceanalytics.com/chartchooser/index.html)
+* [Juice Analytics Chart Chooser](https://www.juiceanalytics.com/chartchooser)
 * [Data Visualization Catalogue](https://datavizcatalogue.com/)
 * [Stephanie Evergreen's Qualitative Chart Chooser](http://stephanieevergreen.com/wp-content/uploads/2017/11/Qualitative-Chooser-3.pdf)
 
@@ -112,7 +114,7 @@ Copyright © 2018 Seán I. O'Donoghue et al. This work is licensed under a CC-BY
 ggplot2 comes as part of tidyverse and can be used to create a number of different plots. Today we'll be creating a bar chart, but the premise behind building a chart in ggplot is the same for all charts.
 
 
-There are many resources for creating charts in ggplot2. However, the one referred to most often in today's class is the [Data visualization with ggplot2 cheat sheet (download link)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf). The cheat sheet can also be useful when deciding what type of chart you want to create.
+There are many resources for creating charts in ggplot2. However, the one referred to most often in today's class is the [Data visualization with ggplot2 cheat sheet (download link)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf).You can also find this and other cheat sheets in RStudio in the Help menu under Cheat Sheets. The cheat sheet can also be useful when deciding what type of chart you want to create.
 
 
 With any ggplot chart, you start with what data you will be using.Since I'm only interested in the students who are studying in the countries they grew up in, I'll need to apply a filter. 
@@ -350,8 +352,7 @@ ggplot(data = homephd, mapping=aes(x=country, y = Total)) +
 We could also have used ratio of respondents from that country or looked outside the dataset and found data on how many PhD students are studying in each country which would help provide a better understanding and context for the outcomes of this survey. 
 
 ## Further resources for learning R
-* [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham & Garrett Grolemund
-* [UMass Chan Bootstrappers R Course](https://bootstrappers.umassmed.edu/bootstrappers-courses/courses/rCourse/index.html) by Nick Hathaway
+* [R for Data Science (2nd edition)](https://r4ds.hadley.nz/) by Hadley Wickham & Garrett Grolemund
 * [Software Carpentry Lessons](https://software-carpentry.org/lessons/)
 * [Data Carpentry Lessons](https://datacarpentry.org/lessons/)
 * [Sage Research Methods R Tutorials](https://library.umassmed.edu/node/97). Search for R statistical package and filter by the video content type
