@@ -17,4 +17,4 @@ In this repository you'll find:
 
 All materials created by Tess are licensed [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) . 
 
-Last taught August 3, 2022.
+Last taught May 15, 2024.
